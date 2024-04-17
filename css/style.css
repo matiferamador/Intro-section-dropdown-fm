@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    /* ## Colors */
+
+    /* ### Neutral */
+
+    --AlmostWhite: hsl(0, 0%, 98%);
+    --MediumGray: hsl(0, 0%, 41%);
+    --AlmostBlack: hsl(0, 0%, 8%);
+
+    /* Fuentes */
+    --fuentePrincipal: "Epilogue", sans-serif; /* Corregido el nombre de la variable */
+}
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; 
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+
+/* Globales */
+body{
+    font-family: var(--fuentePrincipal);
+    font-size: 1.5rem;
+}
+p{
+    font-size: 1.8rem;
+}
