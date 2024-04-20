@@ -30,3 +30,32 @@ body{
 p{
     font-size: 1.8rem;
 }
+img {
+  width: 100%;
+  height: auto;
+}
+
+
+/* Hero */
+
+.hero-contenedor {
+  display:grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 9rem;
+  padding: 2rem;
+  margin-top: 4rem;
+align-items: center;
+}
+
+.hero-info{
+  padding: 0 0 0 7rem
+}
+.hero-img {
+  padding: 0 7rem 0 0;
+
+}
+
+.hero-info_titulo {
+  font-size: 8rem;
+  font-weight: 700;
+}
