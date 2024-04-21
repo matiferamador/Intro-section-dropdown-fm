@@ -35,6 +35,17 @@ img {
   height: auto;
 }
 
+.navbar.dropdown-menu {
+  color:var(--MediumGray);
+  font-weight: 500;
+}
+.dropdown-menu{
+  font-size: 1.5rem;
+}
+.navbar-brand {
+  margin-right: 4.5rem;
+}
+
 
 /* Hero */
 
